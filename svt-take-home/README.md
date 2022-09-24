@@ -1,34 +1,67 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+This purpose pf this app to display the current location and battery life of SVT devices. 
+
+## Getting Started 🚀
 
 First, run the development server:
 
 ```bash
-npm run dev
-# or
-yarn dev
+pnpm install
+pnpm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+<br>
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## Usage 
+Opening the app should display a table, of information of SVT robots fleetData. 
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Sorting:
+To Sort click on the header column you would like to filter by. This should toggle between descending and ascending sorts
 
-## Learn More
+Filtering:
+- Add the ID number you like to filter by
+- Select filter criteria (<, >, or =)
+- Select Submit 
 
-To learn more about Next.js, take a look at the following resources:
+Colors of on battery column:
+the color red in the battery column indicates the battery is less than 50%
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+<br>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+What I would do next: 🗺
+----
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+What I would do next:
+
+Things that I think would be interesting to add would be:
+
+1: More UI queue for the user, such as:
+- An arrow in the header that indicates if the row is sorted in ascending or descending order. 
+- A way to filter by ow battery
+- A way to filter by nearest or farthest robot from the user
+
+
+------
+2: A page that shows a room with a marker for the coordinates of a robot using something like https://js.devexpress.com/Demos/WidgetsGallery/Demo/VectorMap/FloorPlan/React/Light/
+
+OR
+
+one of the tools mentioned here:
+https://blog.logrocket.com/build-indoor-maps-fabric-js-using-react/
+
+---
+
+3: A fun animation that shows something like Wall-e moving across a floor to show how far a given robot is from their goal. This would probably be in a more details page for a selected robot.
+
+---
+
+Thank you taking the time to review my take home! Hope to chat soon!
+
+Cheers, 
+Wes
+
