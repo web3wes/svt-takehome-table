@@ -2,7 +2,7 @@
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-This purpose of this app to display the current location and battery life of SVT devices. 
+This purpose of this app is to display the current location and battery life of SVT devices. 
 
 ## Getting Started 🚀
 
