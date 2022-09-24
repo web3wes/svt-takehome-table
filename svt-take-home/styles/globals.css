@@ -15,6 +15,13 @@ a {
   box-sizing: border-box;
 }
 
+.green {
+  color: green;
+}
+.red {
+  color: red;
+}
+
 .col {
   flex: 1 0;
   align-self: center;

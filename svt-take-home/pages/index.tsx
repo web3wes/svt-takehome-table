@@ -20,6 +20,9 @@ const columns = [
     dataField: "batteryLevel",
     text: "Battery",
     sort: true,
+    classes: function callback(cell: number) {
+      return cell > 50 ? "green" : "red"
+    },
   },
   { dataField: "x", text: "x", sort: true },
   { dataField: "y", text: "y", sort: true },
