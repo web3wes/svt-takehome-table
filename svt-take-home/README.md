@@ -7,6 +7,7 @@ This purpose pf this app to display the current location and battery life of SVT
 First, run the development server:
 
 ```bash
+cd svt-take-home 
 pnpm install
 pnpm run dev
 ```
