@@ -42,7 +42,7 @@ Things that I think would be interesting to add would be:
 
 1: More UI queue for the user, such as:
 - An arrow in the header that indicates if the row is sorted in ascending or descending order. 
-- A way to filter by ow battery
+- A way to filter by low battery
 - A way to filter by nearest or farthest robot from the user
 
 
