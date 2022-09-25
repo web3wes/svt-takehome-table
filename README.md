@@ -22,15 +22,15 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 Opening the app should display a table, of information of SVT robots fleetData. 
 
 Sorting:
-To Sort click on the header column you would like to filter by. This should toggle between descending and ascending sorts
+To Sort, click on the header column you would like to filter by. This should toggle between descending and ascending sorts
 
 Filtering:
 - Add the ID number you like to filter by
 - Select filter criteria (<, >, or =)
 - Select Submit 
 
-Colors of on battery column:
-the color red in the battery column indicates the battery is less than 50%
+Colors in battery column:
+The color red in the battery column indicates the battery is less than 50%
 
 
 
@@ -63,7 +63,7 @@ https://blog.logrocket.com/build-indoor-maps-fabric-js-using-react/
 
 ---
 
-Thank you taking the time to review my take home! Hope to chat soon!
+Thank you for taking the time to review my take home! Hope to chat soon!
 
 Cheers, 
 Wes
